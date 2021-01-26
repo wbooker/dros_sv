@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --job-name=parallel
+#SBATCH --job-name=cnvpytor
 #SBATCH -p general
 #SBATCH -N 1
 #SBATCH --mem=1g
