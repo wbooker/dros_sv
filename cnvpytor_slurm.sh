@@ -4,8 +4,8 @@
 #SBATCH -N 1
 #SBATCH --mem=16g
 #SBATCH -n 8
-#SBATCH -t 1:00:00
-#SBATCH --output=parallel-%j.log
+#SBATCH -t 4:00:00
+#SBATCH --output=cnvpytor-%j.log
 
 module load anaconda
 source activate dros_sv
