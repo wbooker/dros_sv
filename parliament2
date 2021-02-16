@@ -1,0 +1,1 @@
+ singularity run -B parliamentTest:/home/dnanexus/in -B parliamentOut:/home/dnanexus/out ~/parliament2_latest.sif --bam MALE_5-M5_CATGGCTA-GATGTGTG_S27_sorted_dedup.bam --bai MALE_5-M5_CATGGCTA-GATGTGTG_S27_sorted_dedup.bam.bai -r VectorBase-50_AaegyptiLVP_AGWG_Genome.fasta
